@@ -3,7 +3,7 @@
   "bin": {
     "apio": "./index.js"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Apio IoT's command line interface",
   "repository": {
     "type": "git",
