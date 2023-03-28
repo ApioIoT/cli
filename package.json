@@ -1,17 +1,33 @@
 {
   "name": "@apio/cli",
+  "access": "public",
   "bin": {
     "apio": "./index.js"
   },
   "version": "0.0.1",
-  "description": "",
+  "description": "Apio IoT's command line interface",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ApioIoT/cli.git"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ],
   "main": "index.js",
   "scripts": {
     "lint": "eslint src *.js",
     "lint-fix": "eslint src *.js --fix",
     "release": "release-it --set-upstream origin main"
   },
-  "author": "",
+  "keywords": [
+    "iot",
+    "internet-of-things",
+    "platform",
+    "telemetry",
+    "timeseries"
+  ],
+  "author": "Apio S.R.L.",
   "license": "ISC",
   "dependencies": {
     "@fatmatto/ptth": "^1.5.7",
