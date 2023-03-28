@@ -1,6 +1,5 @@
 {
   "name": "@apio/cli",
-  "access": "public",
   "bin": {
     "apio": "./index.js"
   },
@@ -14,6 +13,9 @@
     "index.js",
     "src"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "scripts": {
     "lint": "eslint src *.js",
