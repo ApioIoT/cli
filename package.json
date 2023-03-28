@@ -1,0 +1,37 @@
+{
+  "name": "@apio/cli",
+  "bin": {
+    "apio": "./index.js"
+  },
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src *.js",
+    "lint-fix": "eslint src *.js --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fatmatto/ptth": "^1.5.7",
+    "chalk": "^4.1.0",
+    "cli-table": "^0.3.11",
+    "configstore": "^5.0.1",
+    "debug": "^4.3.1",
+    "inquirer": "^7.3.3",
+    "inquirer-date-prompt": "^2.0.1",
+    "keytar": "^7.8.0",
+    "open": "^7.3.0",
+    "pretty-error": "^2.1.2",
+    "prettyjson": "^1.2.1",
+    "terminal-link": "^2.1.1",
+    "yargs": "^16.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
