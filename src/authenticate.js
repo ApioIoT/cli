@@ -37,6 +37,7 @@ const authenticate = async () => {
     // Create first project
     renderMessage('info', 'Looks like you have no projects, let\'s create the first one.')
     await createFristProject()
+    return
   }
 
   config.set('projects', res.body.data.projects.map(p => ({ uuid: p.uuid, name: p.name, description: p.description })))
